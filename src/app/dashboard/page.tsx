@@ -8,8 +8,8 @@ import { getFeaturedAccommodations } from "@/data/accommodations";
 import { formatPrice } from "@/lib/utils";
 
 const savedTrips = [
-  { id: "t1", name: "Bali Adventure 2025", dates: "Aug 1 - Aug 10, 2025", status: "upcoming", image: "https://picsum.photos/seed/trip-bali/400/300" },
-  { id: "t2", name: "Japan in Spring", dates: "Mar 25 - Apr 5, 2025", status: "completed", image: "https://picsum.photos/seed/trip-japan/400/300" },
+  { id: "t1", name: "Bali Adventure 2025", dates: "Aug 1 - Aug 10, 2025", status: "upcoming", image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=400&h=300&fit=crop&auto=format" },
+  { id: "t2", name: "Japan in Spring", dates: "Mar 25 - Apr 5, 2025", status: "completed", image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=400&h=300&fit=crop&auto=format" },
 ];
 
 const wishlist = getFeaturedDestinations().slice(0, 4);
